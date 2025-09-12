@@ -1,0 +1,7 @@
+﻿################################################################################
+# Este arquivo .gitignore foi criado automaticamente pelo Microsoft(R) Visual Studio.
+################################################################################
+
+/AspNetServer/.vs/AspNetServer
+/AspNetServer/AspNetServer/bin/Debug/net9.0
+/AspNetServer/AspNetServer/obj
