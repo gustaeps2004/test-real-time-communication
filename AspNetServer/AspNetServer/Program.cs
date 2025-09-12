@@ -15,9 +15,10 @@ app.MapGet("/", async (context) =>
 		context.Response.StatusCode = (int)HttpStatusCode.BadRequest;
 	else
 	{
+		using var webSocket = await context.WebSockets.AcceptWebSocketAsync();
+
 		while (true)
 		{
-			using var webSocket = await context.WebSockets.AcceptWebSocketAsync();
 			var data = Encoding.ASCII.GetBytes($" Data atual: {DateTime.Now:dd/MM/yyyy HH:mm:ss}");
 
 			await webSocket.SendAsync(

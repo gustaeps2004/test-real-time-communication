@@ -5,3 +5,6 @@
 /AspNetServer/.vs/AspNetServer
 /AspNetServer/AspNetServer/bin/Debug/net9.0
 /AspNetServer/AspNetServer/obj
+/ConsoleClient/.vs/ConsoleClient
+/ConsoleClient/ConsoleClient/obj
+/ConsoleClient/ConsoleClient/bin/Debug/net9.0
